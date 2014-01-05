@@ -41,6 +41,16 @@
 
 
  /* * * * * * * * * * * * * * * *\
+|  Configuration de CoffeeScript  |
+ \* * * * * * * * * * * * * * * */
+
+// Accesseur
+ define('get_coffee', 'coffee.php?s');
+
+// Dossier contenant les fichiers SCSS
+ define('coffee_dir', static_dir.'JS/');
+
+ /* * * * * * * * * * * * * * * *\
 |    Chargement des dépendances   |
  \* * * * * * * * * * * * * * * */
 
