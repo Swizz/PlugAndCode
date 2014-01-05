@@ -14,11 +14,25 @@
 
 
  /* * * * * * * * * * * * * * * *\
+|      Configuration de Twig      |
+ \* * * * * * * * * * * * * * * */
+
+// Dossier contenant les templates
+ define('templates_dir', 'Templates/');
+
+// Dossier contenant les fichiers statiques
+ define('static_dir', templates_dir.'Static/');
+
+
+
+ /* * * * * * * * * * * * * * * *\
 |    Chargement des dépendances   |
  \* * * * * * * * * * * * * * * */
 
 // Appel des loaders des dépendances
  require_once 'Dependencies/autoload.php';
 
+// Initialisation de Twig
+ require_once 'Utils/Twig_init.php';
 
 
