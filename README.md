@@ -17,4 +17,9 @@ Il faut ensuite installer les dépendances de la sorte :
 
     php Dependencies/composer.phar install
 
+##License
+MakeItEasy est sous licence MIT Expat.
+Cette derniére est consultable au début de chacun des fichiers composant cette solution.
+Et identique au fichier licence.sample.
+
 #Une plus grosse documentation est à venir !

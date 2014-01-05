@@ -1,5 +1,6 @@
 {
     "name": "MakeItEasy",
+    "license": "Expat",
     "config": {
         "vendor-dir" : "Dependencies",
         "prepend-autoloader" : false
