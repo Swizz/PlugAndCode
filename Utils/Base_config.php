@@ -26,6 +26,21 @@
 
 
  /* * * * * * * * * * * * * * * *\
+|      Configuration de SCSS      |
+ \* * * * * * * * * * * * * * * */
+
+// Accesseur
+ define('get_scss', 'scss.php?s');
+
+// Dossier contenant les fichiers SCSS
+ define('scss_dir', static_dir.'SCSS/');
+
+// Format de sortie
+ define('scss_format', 'scss_formatter_nested');
+
+
+
+ /* * * * * * * * * * * * * * * *\
 |    Chargement des dépendances   |
  \* * * * * * * * * * * * * * * */
 
@@ -35,4 +50,6 @@
 // Initialisation de Twig
  require_once 'Utils/Twig_init.php';
 
+// Initialisation de SCSS
+ require_once 'Utils/SCSS_init.php';
 
