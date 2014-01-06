@@ -1,1 +1,1 @@
-alert "Merci d'avoir choisi d'utiliser MakeItEasy"
+alert "Merci d'avoir choisi d'utiliser PlugAndCode"
