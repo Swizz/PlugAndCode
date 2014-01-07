@@ -31,6 +31,15 @@ THE SOFTWARE. */
 // La solution est en mode DEBUG
  define('debug', true);
 
+// Chaine de connection à la base de données
+ define('BDDstring', 'mysql:host=localhost;dbname=XXXXX');
+
+// Nom de connection à la base de données
+ define('BDDpseudo', '');
+
+// Mot de passe de connection à la base données
+ define('BDDpass', '');
+
 
 
  /* * * * * * * * * * * * * * * *\
