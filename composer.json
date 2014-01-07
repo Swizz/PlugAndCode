@@ -1,12 +1,12 @@
 {
-    "name": "swizz540/make-it-easy",
+    "name": "swizz540/plug-and-code",
     "authors": [
         {
             "name" : "Swizz540",
             "role" : "Developer"
         }
     ],
-    "version": "0.5.0",
+    "version": "0.5.1",
     "type": "project",
     "license": "Expat",
     "config": {
