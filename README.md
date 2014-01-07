@@ -21,8 +21,8 @@ Il est également possible de l'installer via composer (http://getcomposer.org).
 ### Dossier compressé
 Pour ceux qui disposent uniquement d'un accés FTP le dossier compressé reste la meilleur solution de déploiement.
 
-* zip : https://github.com/swizz540/PlugAndCode/archive/v0.5.1.zip
-* tar.gz : https://github.com/swizz540/PlugAndCode/archive/v0.5.1.tar.gz
+* zip : https://github.com/swizz540/PlugAndCode/archive/v0.6.0.zip
+* tar.gz : https://github.com/swizz540/PlugAndCode/archive/v0.6.0.tar.gz
 
 Pensez à installer les dépendances avant le deploiement sur le FTP.
 
