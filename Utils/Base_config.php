@@ -83,6 +83,9 @@ THE SOFTWARE. */
 |    Chargement des dépendances   |
  \* * * * * * * * * * * * * * * */
 
+// Si autoload est authorisé
+if(!defined('autoload') || autoload) {
+
 // Appel des loaders des dépendances
  require_once 'Dependencies/autoload.php';
 
@@ -91,4 +94,5 @@ THE SOFTWARE. */
 
 // Initialisation de SCSS
  require_once 'Utils/SCSS_init.php';
+}
 
